@@ -1,0 +1,496 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* main header */
+.header {
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(3, 3, 91, 1) 100%, rgba(0, 27, 130, 1) 100%);
+}
+
+.header__nav-logos {
+    display: none;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.headev__nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__link {
+    color: yellow;
+    font-family: 'Advent Pro ExtraExpanded', sans-serif;
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+/* main section */
+
+.main {
+    background-color: #080808;
+
+}
+
+.main__wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, 33%);
+    background-color: black;
+    max-width: 1230px;
+    height: 100vh;
+
+
+}
+
+.box-movies {
+    background-image: url(../images/header__film.png);
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 95%);
+    color: wheat;
+}
+
+.box-poke {
+    background-image: url(../images/header__pokemon.jpg);
+    clip-path: polygon(0 0, 100% 15%, 100% 95%, 0 100%);
+    color: black;
+}
+
+.box-sw {
+    background-image: url(../images/header__sw.jpg);
+    background-size: cover;
+    background-position: 0 -130px;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 95%);
+    color: wheat;
+}
+
+.main__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 120px;
+}
+
+
+
+
+
+/* pokemon section */
+.pokemon {
+    background-image: url(../images/poke__bkg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pokemon__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    position: relative;
+
+}
+
+.pokemon__card {
+    width: 22%;
+    position: relative;
+    background-color: rgb(252, 252, 245);
+    margin-bottom: 20px;
+    border: 7px solid yellow;
+
+    padding: 15px 0;
+    border-radius: 10%;
+}
+
+.pokemon__card:hover {
+    scale: 120%;
+    transition: 1s;
+}
+
+.pokemon__title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Advent Pro ExtraExpanded';
+    background-color: #C2CF13;
+    background: linear-gradient(to right, #C2CF13 0%, #4927CF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+}
+
+.pokemon__img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 7px solid rgb(45, 45, 218);
+    position: relative;
+    z-index: 2;
+    border-radius: 10%;
+}
+
+.pokemon__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.pokemon__modal {
+    padding: 20px;
+    top: 20%;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: fixed;
+    width: 1000px;
+    height: 700px;
+    backdrop-filter: blur(10px);
+    background-color: beige;
+    padding: 50px;
+    z-index: 10;
+    border: 7px solid rgba(3, 3, 91, 1);
+    border-radius: 10%;
+
+}
+
+.pokemon__modal-img {
+    width: 450px;
+    height: 450px;
+    border: 7px solid yellow;
+    border-radius: 10%;
+}
+
+.pokemon__modal-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface';
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pokemon__modal-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-solid {
+    position: absolute;
+    width: 20px;
+    height: 40px;
+    top: 15px;
+    right: 15px;
+}
+
+.pokemon__modal-abilities {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: blue;
+    font-size: 30px;
+    font-family: 'Advent Pro Expanded';
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.pokemon__modal-exp {
+    text-transform: uppercase;
+    color: green;
+    font-size: 30px;
+    font-family: 'Advent Pro Expanded';
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* movies section */
+.movies {
+    background-image: url(../images/movies__bkg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.movies::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    opacity: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.movies__wrapper {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.movies__card {
+    width: 32%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.movies__desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+
+}
+
+.movies__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Advent Pro ExtraExpanded', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    font-size: 32px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(3, 3, 91, 1) 100%, rgba(0, 27, 130, 1) 100%);
+    transform: skewX(-10deg);
+}
+
+
+
+.movies__ratio {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Advent Pro ExtraExpanded', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    font-size: 32px;
+
+    background: rgb(10, 168, 238);
+    background: linear-gradient(90deg, rgba(10, 168, 238, 1) 0%, rgba(153, 8, 224, 0.9220063025210083) 100%);
+    transform: skewX(-10deg);
+}
+
+.movies__star {
+    position: relative;
+}
+
+.movies__star::before {
+    position: absolute;
+    content: url("../images/star-icon.svg");
+    width: 30px;
+    height: 30px;
+    left: -30px;
+}
+
+.movies__btn {
+    text-transform: uppercase;
+    font-family: 'Advent Pro ExtraExpanded', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(10, 10, 10);
+    font-size: 32px;
+    transform: skewX(-10deg);
+    background: rgb(10, 168, 238);
+    background: linear-gradient(90deg, rgba(10, 168, 238, 1) 0%, rgba(153, 8, 224, 0.9220063025210083) 100%);
+}
+
+.movies__modal {
+
+    padding: 20px;
+    top: 18%;
+    bottom: 18%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: fixed;
+    width: 1000px;
+    height: 750px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(3, 3, 91, 1) 100%, rgba(0, 27, 130, 1) 100%);
+    text-transform: uppercase;
+    font-family: 'Advent Pro ExtraExpanded', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+
+}
+
+.movies__modal-img {
+    margin-bottom: 15px;
+}
+
+.movies__modal-desc {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 15px 0;
+    color: yellow;
+}
+
+.movies__modal-genres {
+    color: aqua;
+}
+
+/* sw section */
+
+.sw {
+    background-image: url(../images/sw__bkg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.sw__nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sw__btn {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Advent Pro ExtraExpanded', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    font-size: 32px;
+}
+
+
+.sw__temp {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sw__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24%;
+    margin-bottom: 20px;
+    border: 5px solid rgba(3, 3, 91, 1);
+    background-color: rgb(17, 17, 16);
+    height: 400px;
+    position: relative;
+}
+
+.sw__title {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Advent Pro ExtraExpanded';
+    background: #121FCF;
+    background: linear-gradient(to right, #121FCF 23%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.sw__modal {
+    position: absolute;
+    background-image: url("../images/sw__bkg_card.jpg");
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-top: 20px;
+
+}
+
+.sw__modal div {
+    z-index: 2;
+    backdrop-filter: blur(10px);
+
+}
+
+.sw__modal p {
+    text-align: center;
+    color: white;
+    font-family: 'Advent Pro ExtraExpanded', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+.sw__modal::before {
+    position: absolute;
+    content: "";
+    background-color: black;
+    opacity: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+}

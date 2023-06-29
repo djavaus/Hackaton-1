@@ -1,0 +1,142 @@
+@media (max-width: 970px) {
+    .container {
+        max-width: 970px;
+    }
+
+    .header__link {
+        font-size: 20px;
+    }
+
+    .main__card {
+        font-size: 80px;
+    }
+
+    .pokemon__card {
+        width: 48%
+    }
+
+    .pokemon__modal {
+        width: 80%;
+        height: 50%;
+    }
+
+    .pokemon__modal-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .pokemon__modal-abilities {
+        font-size: 15px;
+    }
+
+    .pokemon__modal-exp {
+        font-size: 15px;
+    }
+
+    .movies__card {
+        width: 48%;
+    }
+
+    .movies__modal {
+        width: 80%;
+        height: 70%;
+    }
+
+    .sw__btn {
+        font-size: 15px;
+    }
+
+    .sw__card {
+        width: 32%;
+    }
+
+    .sw__title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        max-width: 450px;
+    }
+
+
+    .header__logo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__nav-logos {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    .header__nav-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header__nav-logos img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .main__card {
+        font-size: 40px;
+    }
+
+    .box-sw {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .pokemon__card {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .pokemon__modal {
+        width: 90%;
+        height: 40%;
+        padding: 10px;
+    }
+
+    .pokemon__modal-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .pokemon__modal-title {
+        font-size: 25px;
+    }
+
+    .pokemon__modal-abilities {
+        font-size: 15px;
+    }
+
+    .pokemon__modal-exp {
+        font-size: 15px;
+    }
+
+    .movies__card {
+        width: 100%;
+    }
+
+    .sw__btn {
+        font-size: 12px;
+        margin-right: 12px;
+    }
+
+    .sw__card {
+        width: 48%;
+        height: 300px;
+    }
+
+}

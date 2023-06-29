@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Abril Fatface';
+    src: url('../fonts/AbrilFatface-Regular.eot');
+    src: url('../fonts/AbrilFatface-Regular.svg') format('embedded-opentype'),
+        url('../fonts/AbrilFatface-Regular.woff2') format('woff2'),
+        url('../fonts/AbrilFatface-Regular.woff') format('woff'),
+        url('../fonts/AbrilFatface-Regular.ttf') format('truetype'),
+        url('../fonts/AbrilFatface-Regular.svg#AbrilFatface-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro ExtraExpanded';
+    src: url('../fonts/AdventProExtraExpanded-Bold.eot');
+    src: url('../fonts/AdventProExtraExpanded-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AdventProExtraExpanded-Bold.woff2') format('woff2'),
+        url('../fonts/AdventProExtraExpanded-Bold.woff') format('woff'),
+        url('../fonts/AdventProExtraExpanded-Bold.ttf') format('truetype'),
+        url('../fonts/AdventProExtraExpanded-Bold.svg#AdventProExtraExpanded-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro Expanded';
+    src: url('../fonts/AdventProExpanded-Medium.eot');
+    src: url('../fonts/AdventProExpanded-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AdventProExpanded-Medium.woff2') format('woff2'),
+        url('../fonts/AdventProExpanded-Medium.woff') format('woff'),
+        url('../fonts/AdventProExpanded-Medium.ttf') format('truetype'),
+        url('../fonts/AdventProExpanded-Medium.svg#AdventProExpanded-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro ExtraExpanded';
+    src: url('../fonts/AdventProExtraExpanded-Black.eot');
+    src: url('../fonts/AdventProExtraExpanded-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AdventProExtraExpanded-Black.woff2') format('woff2'),
+        url('../fonts/AdventProExtraExpanded-Black.woff') format('woff'),
+        url('../fonts/AdventProExtraExpanded-Black.ttf') format('truetype'),
+        url('../fonts/AdventProExtraExpanded-Black.svg#AdventProExtraExpanded-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro ExtraExpanded';
+    src: url('../fonts/AdventProExtraExpanded-ExtraBold.eot');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+        url('../fonts/AdventProExtraExpanded-ExtraBold.woff2') format('woff2'),
+        url('../fonts/AdventProExtraExpanded-ExtraBold.woff') format('woff'),
+        url('../fonts/AdventProExtraExpanded-ExtraBold.ttf') format('truetype'),
+        url('../fonts/AdventProExtraExpanded-ExtraBold.svg#AdventProExtraExpanded-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro ExtraExpanded';
+    src: url('../fonts/AdventProExtraExpanded-Regular.eot');
+    src: url('../fonts/AdventProExtraExpanded-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AdventProExtraExpanded-Regular.woff2') format('woff2'),
+        url('../fonts/AdventProExtraExpanded-Regular.woff') format('woff'),
+        url('../fonts/AdventProExtraExpanded-Regular.ttf') format('truetype'),
+        url('../fonts/AdventProExtraExpanded-Regular.svg#AdventProExtraExpanded-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro Expanded';
+    src: url('../fonts/AdventProExpanded-Light.eot');
+    src: url('../fonts/AdventProExpanded-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AdventProExpanded-Light.woff2') format('woff2'),
+        url('../fonts/AdventProExpanded-Light.woff') format('woff'),
+        url('../fonts/AdventProExpanded-Light.ttf') format('truetype'),
+        url('../fonts/AdventProExpanded-Light.svg#AdventProExpanded-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Advent Pro ExtraExpanded';
+    src: url('../fonts/AdventProExtraExpanded-SemiBold.eot');
+    src: url('../fonts/AdventProExtraExpanded-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AdventProExtraExpanded-SemiBold.woff2') format('woff2'),
+        url('../fonts/AdventProExtraExpanded-SemiBold.woff') format('woff'),
+        url('../fonts/AdventProExtraExpanded-SemiBold.ttf') format('truetype'),
+        url('../fonts/AdventProExtraExpanded-SemiBold.svg#AdventProExtraExpanded-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
